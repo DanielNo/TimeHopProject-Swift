@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="208" id="K1s-zz-qEl" customClass="GifTableViewCell" customModule="TimeHopProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="416" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="K1s-zz-qEl" id="tRT-aa-GJT">
+                <rect key="frame" x="0.0" y="0.0" width="416" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qYd-99-LaP">
+                        <rect key="frame" x="108" y="0.0" width="200" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="Xu5-7s-9z4"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qYd-99-LaP" firstAttribute="centerX" secondItem="tRT-aa-GJT" secondAttribute="centerX" id="CQ5-OB-Ipp"/>
+                    <constraint firstItem="qYd-99-LaP" firstAttribute="centerY" secondItem="tRT-aa-GJT" secondAttribute="centerY" id="YdB-JQ-ZQB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="gifImageView" destination="qYd-99-LaP" id="JNc-9t-pc0"/>
+            </connections>
+            <point key="canvasLocation" x="36" y="419"/>
+        </tableViewCell>
+    </objects>
+</document>

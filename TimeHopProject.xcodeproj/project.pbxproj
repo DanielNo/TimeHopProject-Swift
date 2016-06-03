@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		307CFC9C1CE68BD40082E687 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CFC9B1CE68BD40082E687 /* AppDelegate.swift */; };
+		307CFC9E1CE68BD40082E687 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307CFC9D1CE68BD40082E687 /* ViewController.swift */; };
+		307CFCA11CE68BD40082E687 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307CFC9F1CE68BD40082E687 /* Main.storyboard */; };
+		307CFCA31CE68BD40082E687 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 307CFCA21CE68BD40082E687 /* Assets.xcassets */; };
+		307CFCA61CE68BD40082E687 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 307CFCA41CE68BD40082E687 /* LaunchScreen.storyboard */; };
+		30AE288C1CF00E5B00FF8F21 /* GifViewerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE288B1CF00E5B00FF8F21 /* GifViewerModel.swift */; };
+		30AE28901CF0D9B200FF8F21 /* GiphyFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE288F1CF0D9B200FF8F21 /* GiphyFeed.swift */; };
+		30AE28941CF0DC3700FF8F21 /* ImagesGiphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE28931CF0DC3700FF8F21 /* ImagesGiphy.swift */; };
+		30AE28961CF0DC4700FF8F21 /* DataGiphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE28951CF0DC4700FF8F21 /* DataGiphy.swift */; };
+		30AE28981CF0DC5700FF8F21 /* PaginationGiphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE28971CF0DC5700FF8F21 /* PaginationGiphy.swift */; };
+		30AE289A1CF0DC6500FF8F21 /* MetaGiphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE28991CF0DC6500FF8F21 /* MetaGiphy.swift */; };
+		30AE289C1CF0DEAC00FF8F21 /* FixedHeightGiphy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE289B1CF0DEAC00FF8F21 /* FixedHeightGiphy.swift */; };
+		30AE28A61CF28A3A00FF8F21 /* GifTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30AE28A51CF28A3A00FF8F21 /* GifTableViewCell.swift */; };
+		30AE28A81CF28A9700FF8F21 /* GifTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30AE28A71CF28A9700FF8F21 /* GifTableViewCell.xib */; };
+		30FF51AF1CF78AE000CE72B4 /* CGFloat + String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30FF51AE1CF78AE000CE72B4 /* CGFloat + String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		307CFC981CE68BD40082E687 /* TimeHopProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeHopProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		307CFC9B1CE68BD40082E687 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		307CFC9D1CE68BD40082E687 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		307CFCA01CE68BD40082E687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		307CFCA21CE68BD40082E687 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		307CFCA51CE68BD40082E687 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		307CFCA71CE68BD40082E687 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		308B227D1CEFE51800006842 /* TimeHop-BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TimeHop-BridgingHeader.h"; sourceTree = "<group>"; };
+		30AE288B1CF00E5B00FF8F21 /* GifViewerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifViewerModel.swift; sourceTree = "<group>"; };
+		30AE288F1CF0D9B200FF8F21 /* GiphyFeed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyFeed.swift; sourceTree = "<group>"; };
+		30AE28931CF0DC3700FF8F21 /* ImagesGiphy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesGiphy.swift; sourceTree = "<group>"; };
+		30AE28951CF0DC4700FF8F21 /* DataGiphy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataGiphy.swift; sourceTree = "<group>"; };
+		30AE28971CF0DC5700FF8F21 /* PaginationGiphy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaginationGiphy.swift; sourceTree = "<group>"; };
+		30AE28991CF0DC6500FF8F21 /* MetaGiphy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetaGiphy.swift; sourceTree = "<group>"; };
+		30AE289B1CF0DEAC00FF8F21 /* FixedHeightGiphy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedHeightGiphy.swift; sourceTree = "<group>"; };
+		30AE28A51CF28A3A00FF8F21 /* GifTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifTableViewCell.swift; sourceTree = "<group>"; };
+		30AE28A71CF28A9700FF8F21 /* GifTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GifTableViewCell.xib; sourceTree = "<group>"; };
+		30FF51AE1CF78AE000CE72B4 /* CGFloat + String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGFloat + String.swift"; path = "TimeHopProject/CGFloat + String.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		307CFC951CE68BD40082E687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		307CFC8F1CE68BD40082E687 = {
+			isa = PBXGroup;
+			children = (
+				307CFC9A1CE68BD40082E687 /* TimeHopProject */,
+				307CFC991CE68BD40082E687 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		307CFC991CE68BD40082E687 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				307CFC981CE68BD40082E687 /* TimeHopProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		307CFC9A1CE68BD40082E687 /* TimeHopProject */ = {
+			isa = PBXGroup;
+			children = (
+				307CFC9B1CE68BD40082E687 /* AppDelegate.swift */,
+				30FF9E551CF4081D00B50525 /* Categories */,
+				30FF9E511CF407CD00B50525 /* Data Model */,
+				30FF9E521CF407E600B50525 /* User Interface */,
+				30FF9E501CF4077500B50525 /* ViewModel */,
+				308B227D1CEFE51800006842 /* TimeHop-BridgingHeader.h */,
+				307CFCA21CE68BD40082E687 /* Assets.xcassets */,
+				307CFCA71CE68BD40082E687 /* Info.plist */,
+				307CFCA41CE68BD40082E687 /* LaunchScreen.storyboard */,
+			);
+			path = TimeHopProject;
+			sourceTree = "<group>";
+		};
+		30AE289D1CF0E14200FF8F21 /* GiphyFeed */ = {
+			isa = PBXGroup;
+			children = (
+				30AE288F1CF0D9B200FF8F21 /* GiphyFeed.swift */,
+				30AE289E1CF0E15800FF8F21 /* Data */,
+				30AE28A01CF0E16500FF8F21 /* Pagination */,
+				30AE289F1CF0E16200FF8F21 /* Meta */,
+			);
+			name = GiphyFeed;
+			sourceTree = "<group>";
+		};
+		30AE289E1CF0E15800FF8F21 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				30AE28951CF0DC4700FF8F21 /* DataGiphy.swift */,
+				30FF9E4D1CF3CADC00B50525 /* Images */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		30AE289F1CF0E16200FF8F21 /* Meta */ = {
+			isa = PBXGroup;
+			children = (
+				30AE28991CF0DC6500FF8F21 /* MetaGiphy.swift */,
+			);
+			name = Meta;
+			sourceTree = "<group>";
+		};
+		30AE28A01CF0E16500FF8F21 /* Pagination */ = {
+			isa = PBXGroup;
+			children = (
+				30AE28971CF0DC5700FF8F21 /* PaginationGiphy.swift */,
+			);
+			name = Pagination;
+			sourceTree = "<group>";
+		};
+		30FF9E4D1CF3CADC00B50525 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				30AE28931CF0DC3700FF8F21 /* ImagesGiphy.swift */,
+				30AE289B1CF0DEAC00FF8F21 /* FixedHeightGiphy.swift */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		30FF9E501CF4077500B50525 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				30AE288B1CF00E5B00FF8F21 /* GifViewerModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		30FF9E511CF407CD00B50525 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				30AE289D1CF0E14200FF8F21 /* GiphyFeed */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		30FF9E521CF407E600B50525 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				307CFC9F1CE68BD40082E687 /* Main.storyboard */,
+				30FF9E541CF4080900B50525 /* Views */,
+				30FF9E531CF4080100B50525 /* ViewControllers */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		30FF9E531CF4080100B50525 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				307CFC9D1CE68BD40082E687 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		30FF9E541CF4080900B50525 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				30AE28A51CF28A3A00FF8F21 /* GifTableViewCell.swift */,
+				30AE28A71CF28A9700FF8F21 /* GifTableViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		30FF9E551CF4081D00B50525 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				30FF51AE1CF78AE000CE72B4 /* CGFloat + String.swift */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		307CFC971CE68BD40082E687 /* TimeHopProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 307CFCC01CE68BD40082E687 /* Build configuration list for PBXNativeTarget "TimeHopProject" */;
+			buildPhases = (
+				307CFC941CE68BD40082E687 /* Sources */,
+				307CFC951CE68BD40082E687 /* Frameworks */,
+				307CFC961CE68BD40082E687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeHopProject;
+			productName = TimeHopProject;
+			productReference = 307CFC981CE68BD40082E687 /* TimeHopProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		307CFC901CE68BD40082E687 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Daniel No";
+				TargetAttributes = {
+					307CFC971CE68BD40082E687 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 307CFC931CE68BD40082E687 /* Build configuration list for PBXProject "TimeHopProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 307CFC8F1CE68BD40082E687;
+			productRefGroup = 307CFC991CE68BD40082E687 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				307CFC971CE68BD40082E687 /* TimeHopProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		307CFC961CE68BD40082E687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307CFCA61CE68BD40082E687 /* LaunchScreen.storyboard in Resources */,
+				307CFCA31CE68BD40082E687 /* Assets.xcassets in Resources */,
+				30AE28A81CF28A9700FF8F21 /* GifTableViewCell.xib in Resources */,
+				307CFCA11CE68BD40082E687 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		307CFC941CE68BD40082E687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AE288C1CF00E5B00FF8F21 /* GifViewerModel.swift in Sources */,
+				30AE28961CF0DC4700FF8F21 /* DataGiphy.swift in Sources */,
+				30AE289C1CF0DEAC00FF8F21 /* FixedHeightGiphy.swift in Sources */,
+				30AE28981CF0DC5700FF8F21 /* PaginationGiphy.swift in Sources */,
+				30FF51AF1CF78AE000CE72B4 /* CGFloat + String.swift in Sources */,
+				30AE28901CF0D9B200FF8F21 /* GiphyFeed.swift in Sources */,
+				30AE28941CF0DC3700FF8F21 /* ImagesGiphy.swift in Sources */,
+				307CFC9E1CE68BD40082E687 /* ViewController.swift in Sources */,
+				30AE289A1CF0DC6500FF8F21 /* MetaGiphy.swift in Sources */,
+				307CFC9C1CE68BD40082E687 /* AppDelegate.swift in Sources */,
+				30AE28A61CF28A3A00FF8F21 /* GifTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		307CFC9F1CE68BD40082E687 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307CFCA01CE68BD40082E687 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		307CFCA41CE68BD40082E687 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307CFCA51CE68BD40082E687 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		307CFCBE1CE68BD40082E687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		307CFCBF1CE68BD40082E687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		307CFCC11CE68BD40082E687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TimeHopProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielNo.TimeHopProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeHopProject/TimeHop-BridgingHeader.h";
+			};
+			name = Debug;
+		};
+		307CFCC21CE68BD40082E687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = TimeHopProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.DanielNo.TimeHopProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TimeHopProject/TimeHop-BridgingHeader.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		307CFC931CE68BD40082E687 /* Build configuration list for PBXProject "TimeHopProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307CFCBE1CE68BD40082E687 /* Debug */,
+				307CFCBF1CE68BD40082E687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		307CFCC01CE68BD40082E687 /* Build configuration list for PBXNativeTarget "TimeHopProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				307CFCC11CE68BD40082E687 /* Debug */,
+				307CFCC21CE68BD40082E687 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 307CFC901CE68BD40082E687 /* Project object */;
+}

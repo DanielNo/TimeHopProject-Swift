@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="uK1-w9-CFz">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="qkQ-Ft-M0R">
+            <objects>
+                <navigationController id="uK1-w9-CFz" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ehm-84-2EB">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="iUd-Cz-Hdd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y1J-Xn-u5r" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-309" y="307"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="TimeHopProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="jke-EX-yUk">
+                                <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="I3o-4u-JQh"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="750-Z6-00G"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" relation="lessThanOrEqual" secondItem="jke-EX-yUk" secondAttribute="trailing" id="Fzb-5O-P0Y"/>
+                            <constraint firstItem="jke-EX-yUk" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="J12-dE-bdb"/>
+                            <constraint firstItem="jke-EX-yUk" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Jfm-NT-kf9"/>
+                            <constraint firstItem="jke-EX-yUk" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="azU-oj-Gza"/>
+                            <constraint firstItem="jke-EX-yUk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iFq-Ix-y93"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jke-EX-yUk" secondAttribute="bottom" id="pRa-xx-Nfb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZMm-QR-eWL"/>
+                    <connections>
+                        <outlet property="gifTableView" destination="jke-EX-yUk" id="me6-z8-Gi1"/>
+                        <outlet property="searchDisplayController" destination="FDx-5n-2ja" id="oGI-s2-lHl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="BTz-g1-CE2">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="h8f-yc-OJb"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="AAx-08-Ssz"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="Wn8-4r-8YO"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="vHT-Hf-DRi"/>
+                    </connections>
+                </searchDisplayController>
+                <searchDisplayController id="FDx-5n-2ja">
+                    <connections>
+                        <outlet property="delegate" destination="BYZ-38-t0r" id="JcW-ZG-mdT"/>
+                        <outlet property="searchContentsController" destination="BYZ-38-t0r" id="CYS-F1-Rmh"/>
+                        <outlet property="searchResultsDataSource" destination="BYZ-38-t0r" id="Abn-uH-P4x"/>
+                        <outlet property="searchResultsDelegate" destination="BYZ-38-t0r" id="7r6-g5-uDy"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="410" y="307"/>
+        </scene>
+    </scenes>
+</document>
