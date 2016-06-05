@@ -66,11 +66,11 @@ class GifViewerModel{
                     print("fetching gifs error \(response.result.error)")
                     return
                 }
-                guard let responseJSON = response.result.value as? NSDictionary else {
+                guard let responseJSON = response.result.value as? JSON else {
                     print("No json data")
                     return
                 }
-                self.mapJson(responseJSON as! JSON)
+                self.mapJson(responseJSON)
         }
     }
 
