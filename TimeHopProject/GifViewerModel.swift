@@ -60,7 +60,7 @@ class GifViewerModel{
     private func fetchTrendingGifs(baseUrl: String, params: [String:String]){
         //        http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC
         Alamofire.request(.GET, baseUrl, parameters: params)
-            .responseJSON { response in
+            .responseJSON { [unowned self] response in
                 
                 guard response.result.isSuccess else {
                     print("fetching gifs error \(response.result.error)")
